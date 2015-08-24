@@ -1,85 +1,54 @@
+<!DOCTYPE HTML>
+<!--
+	Eventually by HTML5 UP
+	html5up.net | @n33co
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
 <html>
-    <head>
-        <title>Edify101--remote college mentoring</title>
-        <meta name="keywords" content="mentor, silicon valley, college, high school, tutor, SAT, ACT">
-        <meta name="description" content="high school and college prep and resources, mentoring">
-        <meta name="author" content="Lizzie Siegle">
+	<head>
+		<title>Edify | remote college mentoring</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
+		<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
 
-        <link rel="SHORTCUT ICON" type="image/x-icon" href="file:///Users/lizziesiegle/Desktop/edify101.github.io/favicon.ico"/>
-        <link rel="stylesheet" type="text/css" href="stylesheets/home.css">
-        <link href='http://fonts.googleapis.com/css?family=Josefin+Sans' rel='stylesheet' type='text/css'>
+		<link rel="shortcut icon" type="image/png" href="images/favicon.png"/>
+	</head>
+	<body>
 
-        <script type="text/javascript">
-            var frmvalidator = new Validator("myform");
-            frmvalidator.addValidation("FirstName","req","Please enter your First Name");
-            frmvalidator.addValidation("FirstName","maxlen=20", "Max length for FirstName is 20");
-            frmvalidator.addValidation("LastName","req");
-            frmvalidator.addValidation("LastName","maxlen=20");
-            frmvalidator.addValidation("Email","maxlen=50");
-            frmvalidator.addValidation("Email","req");
-            frmvalidator.addValidation("Email","email");
-            frmvalidator.addValidation("Phone","maxlen=50");
-            frmvalidator.addValidation("Phone","numeric");
-            frmvalidator.addValidation("Address","maxlen=50");
-            frmvalidator.addValidation("Country","dontselect=000");
-        </script>
-    </head>
-    <body>
-        <header>
-            <ul>
-                <li id = "button"><a href="index.html">Home</a></li>
-                <li id = "button"><a href="about.html">About</a></li>
-                <li id = "button"><a href="resources.html">Resources</a></li>
-                <li id = "button"><a href="database.html">Database of Mentors</a></li>
-                <li id = "button"><a href = "formentors.html">For Mentors</a></li>
-            </ul>
-        </header>
-        <div id = "container">
-            <div class = "movingPlanets">
-                <h1>
-                    <em>E</em>
-                    <em class="planet left">D</em>
-                    <em>I</em>
-                    <em>F</em>
-                    <em class = "planet right">Y</em>
-                    <em class>101</em>
-                </h1>
-            </div>
-            <div class = "welcome">      
-                <blockquote style = "center">
-                    <i>"Shoot for the moon. Even if you miss, you'll land among the stars."</i>
-                </blockquote>
-            </div>
-            <p>
-                Interested in getting mentored? Fill <a href = "https://docs.google.com/forms/d/1BYtxHe_P2JjiCN0UdB_w8ufRZROJTCoqiMhN3nRPxD4/viewform?usp=send_form">this</a>out!
-            </p>
-            <p>
-                Interested in being a mentor? Fill <a href = "https://docs.google.com/forms/d/1AaeM092VnYKxN2YPpCeplCeptiwzaSp-JUUXuwqpHLA/viewform">this</a> out!
-            </p>
-            <form action="MAILTO:lizzie.siegle@gmail.com" method="post" enctype="text/plain">
-                <ul class="form-style-1" style="list-style-type:none;">
-                    <li id = "emailform">
-                        <label>Full Name <span class="required">*</span></label><input type="text" name="field1" class="field-divided" placeholder="First" />&nbsp;<input type="text" name="field2" class="field-divided" placeholder="Last" />
-                    </li>
-                    <li id = "emailform">
-                        <label>Email <span class="required">*</span></label><input type="email" name="field3" class="field-long" placeholder="name@company.com" />
-                    </li>
-                    <li id = "emailform">
-                        <label>Subject</label>
-                        <select name="field4" class="field-select">
-                            <option value="General Question">General question</option>
-                            <option value = "sponsorship/partnership">Sponsor? Partner?</option>
-                        </select>
-                    </li>
-                    <li id="emailform">
-                        <label style="margin-bottom:50px;">Your Message <span class="required">*</span></label>
-                        <textarea name="field5" id="field5" class="field-long field-textarea"></textarea>
-                    </li>
-                    <li id = "emailform">
-                        <input type="submit" value="Submit" style="margin-left:80px;margin-top:20px;" />
-                    </li>
-                </ul>
-            </form>
-        </div>
-    </body>
+		<!-- Header -->
+			<header id="header">
+				<img src="images/logo.svg" style="width: 350px;">
+				<!-- <h1>Edify 101</h1> -->
+				<h3><a href="about.html">About</a> | <a href="resources.html">Resources</a> | <a href="database.html">Mentors</a> | <a href="formentors.html">For Mentors</a></h3>
+				<p>"Shoot for the moon. Even if you miss, you'll land among the stars." <a href="https://goo.gl/ookxaJ">For mentors</a>, <a href="https://goo.gl/ILXmQ8">for mentees</a>.</p>
+
+			</header>
+
+		<!-- Signup Form -->
+			<a style="width: 150px" class="button" href="mailto:lizzie.siegle@gmail.com?Subject=Edify&Body=I%27m%20interested%20in%20learning%20more%20about%20Edify%2C%20please%20contact%20me.">Learn More</a>
+			<!-- <form id="signup-form" method="post" action="#">
+				<input type="email" name="email" id="email" placeholder="Email Address"/>
+				<input type="submit" value="Learn More" />
+			</form> -->
+
+		<!-- Footer -->
+			<footer id="footer">
+				<!-- <ul class="icons">
+					<li><a href="#" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
+					<li><a href="#" class="icon fa-instagram"><span class="label">Instagram</span></a></li>
+					<li><a href="#" class="icon fa-github"><span class="label">GitHub</span></a></li>
+					<li><a href="#" class="icon fa-envelope-o"><span class="label">Email</span></a></li>
+				</ul> -->
+				<ul class="copyright">
+					<li>&copy; Lizzie Siegle.</li><li>Credits: <a href="http://html5up.net">HTML5 UP</a></li>
+				</ul>
+			</footer>
+
+		<!-- Scripts -->
+			<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
+			<script src="assets/js/main.js"></script>
+	</body>
 </html>
